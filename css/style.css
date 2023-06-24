@@ -73,7 +73,7 @@ button {
   color: #8758ff;
 }
 
-.btn-hero {
+.btn {
   font-family: "Segoe UI";
   font-size: 1rem;
   font-weight: 600;
@@ -83,4 +83,36 @@ button {
   color: #222;
   border: #222 solid 2px;
   border-radius: 12px;
+}
+
+@media (max-width: 460px) {
+  .nav-center h1,
+  .nav-center a {
+    font-size: 1rem;
+  }
+  .container h2,
+  .container .color {
+    font-size: 1.125rem;
+    letter-spacing: 0;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .nav-center h1,
+  .nav-center a {
+    font-size: 0.765rem;
+  }
+  .container h2,
+  .container .color {
+    font-size: 0.865rem;
+    letter-spacing: 0;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+  }
 }
