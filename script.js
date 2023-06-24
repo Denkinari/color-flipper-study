@@ -14,6 +14,11 @@ const colors = [
 
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
+//caso queira definir a cor de acordo com o fundo selecione o id:
+//const textColor = document.getElementById("text-color");
+//e adicione o seguinte código dentro do evento abaixo:
+// textColor.style.color = colors[randomNumber];
+// faça isso no hex.js também
 
 const selectedNumbers = [];
 
